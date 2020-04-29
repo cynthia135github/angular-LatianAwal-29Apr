@@ -7,10 +7,14 @@ import { Router } from '@angular/router';
   styleUrls: [ './app.component.css' ]
 })
 export class AppComponent  {
-  name = 'Angular';
+  name = 'Cynthia';
 
   constructor(private router : Router) {}
   Hasil() {
     this.router.navigate(['/hasil']);
+  }
+
+  satu(){
+    this.ang =  "1";
   }
 }

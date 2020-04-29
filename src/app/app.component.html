@@ -1,24 +1,25 @@
 <hello name="{{ name }}"></hello>
-<p>
-  Start editing to see some magic happen :)
-</p>
+
 
 <div>
-   <input [(ngModel)]=a type="text"><br><br>
-   <button (click)="tujuh()">7</button>;
-   <button (click)="delapan()">8</button>;
-   <button (click)="sembilan()">9</button>$nbsp;
-   <button (click)="empat()">4</button>;
-   <button (click)="lima()">5</button>;
-   <button (click)="enam()">6</button>$nbsp;
-   <button (click)="satu()">1</button>;
-   <button (click)="dua()">2</button>;
-   <button (click)="tiga()">3</button>&nbsp;
-   <button (click)="min()">-</button>;
-   <button (click)="plus()">+</button>;
-   <button (click)="kali()">*</button>;
+   <input [(ngModel)]="ang" type="text"><br><br>
+   <button (click)="tujuh()">7</button>&nbsp;
+   <button (click)="delapan()">8</button>&nbsp;
+   <button (click)="sembilan()">9</button>&nbsp;<br><br>
+   <button (click)="empat()">4</button>&nbsp;
+   <button (click)="lima()">5</button>&nbsp;
+   <button (click)="enam()">6</button>&nbsp;<br><br>
+   <button (click)="satu()">1</button>&nbsp;
+   <button (click)="dua()">2</button>&nbsp;
+   <button (click)="tiga()">3</button>&nbsp;<br><br>
+   <button (click)="min()">-</button>&nbsp;
+   <button (click)="plus()">+</button>&nbsp;
+   <button (click)="kali()">*</button>&nbsp;
    <button (click)="Hasil()">=</button>&nbsp;
+   <br><br>
   
 </div>
+
+<a routerLink="/hasil">Hasil</a><br><br>
 
 <router-outlet></router-outlet>
