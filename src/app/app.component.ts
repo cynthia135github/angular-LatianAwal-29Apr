@@ -8,6 +8,7 @@ import { Router } from '@angular/router';
 })
 export class AppComponent  {
   name = 'Cynthia';
+  ang = "";
 
   constructor(private router : Router) {}
   Hasil() {
@@ -15,6 +16,30 @@ export class AppComponent  {
   }
 
   satu(){
-    this.ang =  "1";
+    this.ang +=  "1";
+  }
+  dua(){
+    this.ang +=  "2";
+  }
+  tiga(){
+    this.ang +=  "3";
+  }
+  empat(){
+    this.ang +=  "4";
+  }
+  lima(){
+    this.ang +=  "5";
+  }
+  enam(){
+    this.ang +=  "6";
+  }
+  tujuh(){
+    this.ang +=  "7";
+  }
+  delapan(){
+    this.ang +=  "8";
+  }
+  sembilan(){
+    this.ang +=  "9";
   }
 }
